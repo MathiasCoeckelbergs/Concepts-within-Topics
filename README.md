@@ -1,6 +1,6 @@
 # Concepts-within-Topics
 
-\\The table shows the results of the top 10 keywords from 50 topics extracted using the Latent Dirichlet Allocation (LDA) algorithm on a corpus the MaSTIC research group of the Université libre de Bruxelles (ULB) acquired from the European Commission. We used the 300-dimensional pre-trained word embeddings from the Google News corpus using Word2Vec (https://code.google.com/archive/p/word2vec/) to represent each of these keywords vectorially. 
+The table shows the results of the top 10 keywords from 50 topics extracted using the Latent Dirichlet Allocation (LDA) algorithm on a corpus the MaSTIC research group of the Université libre de Bruxelles (ULB) acquired from the European Commission. We used the 300-dimensional pre-trained word embeddings from the Google News corpus using Word2Vec (https://code.google.com/archive/p/word2vec/) to represent each of these keywords vectorially. 
 
 By deleting the word whose vector is least close to the other words from the same topic, and iterating this approach ten times, we acquire a hierarchy of terms for each topic, informed by word embeddings. The highest ranked word is shown in the leftmost column, descending until the tenth and lowest ranked word.
 
